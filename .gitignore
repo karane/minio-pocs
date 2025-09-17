@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.env
+.venv
+venv/
+
+# MinIO data
+data/
+
+# Docker
+*.log
+*.pid
+*.seed
+*.swp
+.docker-compose.override.yml
+docker-compose.override.yml
+
+# IDEs / Editors
+.vscode/
+.idea/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db

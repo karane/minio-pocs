@@ -1,1 +1,1 @@
-# minio-pocs
+# MinIO POCs

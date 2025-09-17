@@ -1,0 +1,30 @@
+# Ignore Git repo
+.git
+.gitignore
+
+# Python cache & venv
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.venv
+venv/
+
+# MinIO data (don’t bake local storage into image)
+data/
+
+# IDE / editor configs
+.vscode/
+.idea/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
